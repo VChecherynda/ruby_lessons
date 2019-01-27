@@ -1,4 +1,4 @@
-Company name:    Total employess: Total salaries:  
+Company name:    Total employees: Total salaries:  
 
 McDonalds        11000            3                
 Puzata Hata      9000             3                

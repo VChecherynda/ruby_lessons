@@ -17,7 +17,7 @@ results = client.query(QUERY)
 
 @f = File.open('emplyees_and_salaries.txt','w')
 
-@f.printf("%-16s %-16s %-16s %1s", "Company name:", "Total employess:", "Total salaries:", "\n\n")
+@f.printf("%-16s %-16s %-16s %1s", "Company name:", "Total employees:", "Total salaries:", "\n\n")
 
 results.each do |row|
   @f.printf("%-16s %-16s %-16s %1s", row["name"], row["SUM(employees.salary)"], row["COUNT(employees.id)"], "\n")
